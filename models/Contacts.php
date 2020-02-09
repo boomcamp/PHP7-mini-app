@@ -13,7 +13,7 @@ class Contacts extends Connection
     }
 
     /**
-     * Function to add Products in database
+     * Function to add contacts in database
      * @param [type] $name    [description]
      * @param [type] $email   [description]
      * @param [type] $phone   [description]
