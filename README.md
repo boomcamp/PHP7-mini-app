@@ -1,12 +1,8 @@
 # PHP7-mini-app (CRUD application)
 
-This is the practical week on which you are going to demonstrate all PHP7 lessons that you have learned 
+This is the practical week on which you are going to demonstrate all PHP7 lessons that you have learned, this template was pre-configured and have some examples that you can use to build this application.
 
-helpers:
-
-- [PHP PDO tutorial](http://zetcode.com/php/pdo/)
-- [PHP PDO Tutorial: CRUD Example with MySQL](https://www.techiediaries.com/php-pdo-crud-tutorial/)
-
+- [PDO queries](http://zetcode.com/php/pdo/)
 
 Example Preview:
 
@@ -44,7 +40,7 @@ Should be enabled by default if you're using XAMPP, but if it's not you'll need 
 
 ## Database  
 
-***contacts_db***
+Database name: ***contacts_db***
 
 ```
 CREATE TABLE IF NOT EXISTS `contacts` (
