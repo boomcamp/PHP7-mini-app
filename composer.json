@@ -1,0 +1,12 @@
+{
+    "name": "PHP7-mini-app (CRUD application)",
+    "description": "This is the practical week on which you are going to demonstrate all PHP7 lessons that you have learned",
+    "autoload": {
+        "psr-4": { 
+            "Models\\" : "models/",
+            "Classes\\" : "classes/",
+            "Abstracts\\" : "abstract/",
+            "Interfaces\\" : "interface/"
+        }
+    }
+}
