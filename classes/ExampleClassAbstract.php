@@ -5,9 +5,9 @@ use Abstracts\AExample;
 
 class ExampleClassAbstract extends AExample 
 {
-	private $msg1;
+    private $msg1;
 
-	public function __construct()
+    public function __construct()
     {
        //Empty Constructor
     }
