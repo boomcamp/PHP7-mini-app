@@ -5,7 +5,7 @@ namespace Interfaces;
 
 interface IDbCredentials
 {
-    const host     = "mysql:dbname=shopping_cart;host=127.0.0.1";
+    const host     = "mysql:dbname=contacts_db;host=127.0.0.1";
     const username = "root";
     const password = "";
     const database = "contacts_db";
