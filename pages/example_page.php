@@ -22,7 +22,7 @@ echo $example->getHelloAbstract();
  *  
  *  use Classes\Contacts;
  *  $contacts = new Contacts();
- *  $contacts->addadd($name, $email, $phone, $contact);
+ *  $contacts->add($name, $email, $phone, $contact);
  * 
  */
 ?>
