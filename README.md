@@ -23,14 +23,11 @@ Run `composer install` to install the project dependencies
 
 ###  Pre requisite
 
-**Web Server**  
-I recommend you download and install XAMPP on your local computer system, this server package includes MySQL, PHP, and the PDO extension.
+**Web Server**  I recommend you download and install XAMPP on your local computer system, this server package includes MySQL, PHP, and the PDO extension.
 
-**PHP7**  
-I recommend you use the latest version of PHP for this crud project.
+**PHP7**  I recommend you use the latest version of PHP for this crud project.
 
-**PDO Extension**  
-Should be enabled by default if you're using XAMPP, but if it's not you'll need to enable/install it.
+**PDO Extension**  Should be enabled by default if you're using XAMPP, but if it's not you'll need to enable/install it.
 
 
 ## Design Constraints
