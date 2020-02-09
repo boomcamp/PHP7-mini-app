@@ -74,9 +74,6 @@ CREATE TABLE IF NOT EXISTS `contacts` (
 * Atleast one of these methods (Overriding, Overloading or Method Chaining)
 * Implementation of PDO connection class
 * Implementation of namespace and autoloader class
-
-Optional:
-
 * Constructor Injection(Dependency injection)
 
 
