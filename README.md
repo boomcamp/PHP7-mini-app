@@ -1,6 +1,6 @@
 # PHP7-mini-app (CRUD application)
 
-This is the practical week on which you are going to demonstrate all PHP7 lessons that you have learned, this template was pre-configured and have some examples that you can use to build this application.
+This is the practical week in which you are going to demonstrate PHP 7 lessons that you have learned, this template is pre-configured and have some examples that you can use to build this application from scratch.
 
 - [PDO queries](http://zetcode.com/php/pdo/)
 
@@ -63,11 +63,11 @@ CREATE TABLE IF NOT EXISTS `contacts` (
 ### Graded Requirements
 
 * Use of PHP 7 new syntax
-* Use of Polymorphism(Interface or Abtract)
+* Use of Polymorphism(Interface and Abtract class)
 * Atleast one of these methods (Overriding, Overloading or Method Chaining)
 * Implementation of PDO connection class
 * Implementation of namespace and autoloader class
-* Constructor Injection(Dependency injection)
+* Dependency injection
 
 
 # Finished 
