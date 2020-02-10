@@ -52,7 +52,7 @@ class Contacts extends Connection
     }
 
     /**
-     * close connection for Products class
+     * close connection for Contacts class
      * access public
      */
     public function __destruct()
