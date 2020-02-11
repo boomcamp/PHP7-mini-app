@@ -33,6 +33,7 @@ use Models\Contacts;
 //Open a connection instance
 $instance = Connection::getNewConnection();
 
+//Connect single class
 $contacts = new Contacts($instance);
 $contacts->add("Jino Lacson", "jino.lacson@boom.camp", "07909101234", "P5 Barriada Legazpi City, Albay");
 
