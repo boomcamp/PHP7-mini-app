@@ -25,6 +25,9 @@ class Contacts extends Connection
         $stmt->execute([$name, $email, $phone, $address]);
     }
 
+    
+    //Implement your query here...
+
 
     /**
      * Reset/Truncate products table
@@ -38,9 +41,6 @@ class Contacts extends Connection
         $stmt = $this->conn->prepare("TRUNCATE TABLE ".$table);
         $stmt->execute();
     }
-
-
-    //Implement your query here...
 
     /**
      * drop table
