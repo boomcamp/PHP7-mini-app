@@ -1,6 +1,6 @@
 # PHP7-mini-app (CRUD application)
 
-This is the practical week in which you are going to demonstrate PHP 7 lessons that you have learned, this template is pre-configured and have some examples that you can use to build this application from scratch.
+This is the practical week in which you are going to demonstrate PHP 7 lessons that you have learned and its best practices, this template is pre-configured and have some examples that you can use to build this application from scratch.
 
 - [PDO queries](http://zetcode.com/php/pdo/)
 
