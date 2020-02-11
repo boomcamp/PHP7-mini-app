@@ -17,12 +17,12 @@ class Contacts extends Connection
      * @param [type] $name    [description]
      * @param [type] $email   [description]
      * @param [type] $phone   [description]
-     * @param [type] $contact [description]
+     * @param [type] $address [description]
      */
-    public function add($name, $email, $phone, $contact)
+    public function add($name, $email, $phone, $address)
     {
-        $stmt = $this->conn->prepare("insert into contacts(name, email, phone, contact) values ( ?, ?, ?, ?)");
-        $stmt->execute([$name, $email, $phone, $contact]);
+        $stmt = $this->conn->prepare("insert into contacts(name, email, phone, address) values ( ?, ?, ?, ?)");
+        $stmt->execute([$name, $email, $phone, $address]);
     }
 
     /**
