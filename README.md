@@ -14,6 +14,12 @@ Run `composer install` to install the project dependencies
 
 `index.php` = The main landing page of the application
 
+`pages/example_page.php` = Example page template
+
+`interface/IExample.php` = Example interface class
+
+`abstract/AExample.php` = Example abstract class
+
 `interface/IDbCredentials.php ` = Stores the database configuration
 
 `classes/Connection.php` = Class connection of the application
