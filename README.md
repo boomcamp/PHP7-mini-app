@@ -8,7 +8,7 @@ Example Preview:
 
 ![Example preview](php7-crud.png)
 
-## Configuration
+# Configuration
 
 Run `composer install` to install the project dependencies
 
@@ -27,7 +27,7 @@ Run `composer install` to install the project dependencies
 `models/Contacts.php` = The data layer of the application
 
 
-###  Tools
+#  Tools
 
 **Web Server**  I recommend you download and install XAMPP on your local computer system, this server package includes MySQL, PHP, and the PDO extension.
 
@@ -36,12 +36,12 @@ Run `composer install` to install the project dependencies
 **PDO Extension**  Should be enabled by default if you're using XAMPP, but if it's not you'll need to enable/install it.
 
 
-## Design Constraints
+# Design Constraints
 
 - Bootstrap or any CSS framework you prefer, having a responsive design is a plus.
 
 
-## Database  
+# Database  
 
 Database name: ***contacts_db***
 
