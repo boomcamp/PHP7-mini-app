@@ -1,6 +1,6 @@
 # PHP7-mini-app (CRUD application)
 
-This is the practical week in which you are going to demonstrate PHP 7 lessons that you have learned and its best practices, this template is pre-configured and have some examples that you can use to build this application from scratch.
+This is the practical week in which you are going to demonstrate PHP 7 lessons that you have learned and its best practices, this template is `pre-configured` and have some examples that you can use to help you build this application from scratch.
 
 - [PDO queries](http://zetcode.com/php/pdo/)
 
@@ -27,7 +27,7 @@ Run `composer install` to install the project dependencies
 `models/Contacts.php` = The data layer of the application
 
 
-###  Pre requisite
+###  Tools
 
 **Web Server**  I recommend you download and install XAMPP on your local computer system, this server package includes MySQL, PHP, and the PDO extension.
 
