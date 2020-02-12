@@ -4,10 +4,6 @@ This is the practical week in which you are going to demonstrate PHP 7 lessons t
 
 - [PDO queries](http://zetcode.com/php/pdo/)
 
-Example Preview:
-
-![Example preview](php7-crud.png)
-
 # Configuration
 
 Run `composer install` to install the project dependencies
