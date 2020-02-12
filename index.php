@@ -14,6 +14,10 @@ ini_set('display_errors', 1);
     <title>PHP7-mini-app (CRUD application)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="resources/css/index.css" />
+    
+    <!-- Add your bootstrap and jquery here -->
+    
+    
 </head>
 <body>
     <a href='index.php?page=example'>Go to example page</a> 
