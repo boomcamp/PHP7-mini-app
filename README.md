@@ -63,8 +63,9 @@ CREATE TABLE IF NOT EXISTS `contacts` (
 
 ### Graded Requirements
 
+* Source code should be organized
 * Use of PHP 7 new syntax
-* Use of Polymorphism(Interface and Abtract class)
+* Use of Polymorphism (Interface and Abtract class)
 * Atleast one of these methods (Overriding, Overloading or Method Chaining)
 * Implementation of PDO connection class
 * Implementation of namespace and autoloader class
