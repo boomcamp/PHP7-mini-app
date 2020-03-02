@@ -3,9 +3,12 @@
 This is the practical week in which you are going to demonstrate PHP 7 lessons that you have learned including its best practices, this template is `pre-configured` to use [PDO queries](http://zetcode.com/php/pdo/) and have some examples that you can use to help you build this application from scratch.
 
 
-# Configuration
+# Installation
 
 Run `composer install` to install the project dependencies
+
+
+# Objects
 
 `index.php` = The main landing page of the application
 
@@ -20,15 +23,6 @@ Run `composer install` to install the project dependencies
 `classes/Connection.php` = Class connection of the application
 
 `models/Contacts.php` = The data layer of the application
-
-
-#  Tools
-
-**Web Server**  I recommend you download and install XAMPP on your local computer system, this server package includes MySQL, PHP, and the PDO extension.
-
-**PHP7**  I recommend you use the latest version of PHP for this crud project.
-
-**PDO Extension**  Should be enabled by default if you're using XAMPP, but if it's not you'll need to enable/install it.
 
 
 # Design Constraints
