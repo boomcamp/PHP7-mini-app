@@ -12,6 +12,7 @@ class Connection extends PDO implements IDbCredentials
         parent::__construct($dsn, $username, $password, $options);
     }
     /**
+     * Singleton pattern access to only one instance of a particular class (during runtime)
      * create pdo connection for both test and models
      *
      * @return void
