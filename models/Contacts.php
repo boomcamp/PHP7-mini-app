@@ -30,7 +30,7 @@ class Contacts extends Connection
 
 
     /**
-     * Reset/Truncate products table
+     * Reset/Truncate contacts table
      *
      * @param string $table
      * @return void
@@ -56,7 +56,7 @@ class Contacts extends Connection
     }
 
     /**
-     * close connection for Contacts class
+     * close signleton connection for Contacts class
      * access public
      */
     public function __destruct()
