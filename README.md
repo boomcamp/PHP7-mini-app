@@ -48,15 +48,6 @@ CREATE TABLE IF NOT EXISTS `contacts` (
 
 #  Requirements
 
-### Features
-
-* A home Page
-* A way to Login/Logout a user
-* A way to display a list of contacts
-* A way to CREATE,UPDATE and DELETE a contact
-
-### Graded Requirements
-
 * [ ] Source code should be organized
 * [ ] Use of PHP 7 new syntax
 * [ ] Use of Polymorphism (Interface and Abtract class)
@@ -65,6 +56,12 @@ CREATE TABLE IF NOT EXISTS `contacts` (
 * [x] Implementation of namespace and autoloader class
 * [ ] Dependency injection
 
+### Features
+
+* A home Page
+* A way to Login/Logout a user
+* A way to display a list of contacts
+* A way to CREATE,UPDATE and DELETE a contact
 
 # Finished 
 
