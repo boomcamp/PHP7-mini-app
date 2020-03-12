@@ -32,10 +32,8 @@ Run `composer install` to install the project dependencies
 
 # Database  
 
-Database name: ***contacts_db***
-
 <details>
-<summary> .sql </summary>
+<summary>  contacts_db.sql </summary>
 <br></br>
 
 ```
