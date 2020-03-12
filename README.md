@@ -20,7 +20,7 @@ Run `composer install` to install the project dependencies
 
 `interface/IDbCredentials.php ` = Stores the database configuration
 
-`classes/Connection.php` = Class connection of the application
+`classes/Connection.php` = Singleton database class connection of the application
 
 `models/Contacts.php` = The data layer of the application
 
