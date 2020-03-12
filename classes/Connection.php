@@ -23,7 +23,9 @@ class Connection extends PDO implements IDbCredentials
 
         try 
         {
-            $conn = new Connection(self::getHost(), self::getUsername(), self::getPassword());
+            if (!($conn instanceof Connection) ) {
+                $conn = new Connection(self::getHost(), self::getUsername(), self::getPassword());
+            }
         } 
         catch (PDOException $exc) 
         {
