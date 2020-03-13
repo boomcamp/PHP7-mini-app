@@ -19,10 +19,10 @@ class Contacts extends Connection
      * @param [type] $phone   [description]
      * @param [type] $address [description]
      */
-    public function add($name, $email, $phone, $address)
+    public function add($user_id, $name, $email, $phone, $address): void
     {
-        $stmt = $this->conn->prepare("insert into contacts(name, email, phone, address) values ( ?, ?, ?, ?)");
-        $stmt->execute([$name, $email, $phone, $address]);
+        $stmt = $this->conn->prepare('insert into contacts(user_id, name, email, phone, address) values ( ?, ?, ?, ?, ?)');
+        $stmt->execute([$user_id, $name, $email, $phone, $address]);
     }
 
     
