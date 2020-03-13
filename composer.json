@@ -8,5 +8,8 @@
             "Abstracts\\" : "abstract/",
             "Interfaces\\" : "interface/"
         }
+    },
+    "require-dev": {
+        "symplify/easy-coding-standard": "^7.2"
     }
 }
