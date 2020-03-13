@@ -18,7 +18,7 @@ class Connection extends PDO implements IDbCredentials
      * @return void
      * access public
      */
-    public static function getNewConnection()
+    public static function getNewConnection() : object
     {
         $conn = null;
 
