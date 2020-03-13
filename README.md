@@ -5,7 +5,7 @@ This is the practical week in which you are going to demonstrate PHP 7 lessons t
 
 # Installation
 
-Run `./install.sh` to install the project dependencies and dump autoloader.
+Run `./install.sh` to install the project dependencies.
 
 
 # Objects
