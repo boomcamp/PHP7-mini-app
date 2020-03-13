@@ -144,6 +144,7 @@ COMMIT;
 * A way to Login/Logout a user
 * A way to display a list of contacts
 * A way to CREATE,UPDATE and DELETE a contact
+* Design pattern and security should be documented at `DESIGN_SPECS.md`.
 
 # Finished 
 
