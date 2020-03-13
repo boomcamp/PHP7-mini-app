@@ -2,6 +2,7 @@
 
 # We need to install the project dependecies
 composer install
+composer dump-autoload --optimize
 
 # Check the classes/ folder 
 vendor/bin/ecs check classes
