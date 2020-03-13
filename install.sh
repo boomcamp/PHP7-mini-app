@@ -4,18 +4,9 @@
 composer install
 composer dump-autoload --optimize
 
-# Check the classes/ folder 
-vendor/bin/ecs check classes
-vendor/bin/ecs check classes --fix
-
-# Check the interface/ folder 
-vendor/bin/ecs check interface
-vendor/bin/ecs check interface --fix
-
-# Check the abstract/ folder 
-vendor/bin/ecs check abstract
-vendor/bin/ecs check abstract --fix
-
-# Check the models/ folder 
-vendor/bin/ecs check models
-vendor/bin/ecs check models --fix
+ls .git
+ls .git/hooks
+mv .git/hooks/prepare-commit-msg.sample .git/hooks/prepare-commit-msg
+chmod +x .git/hooks/prepare-commit-msg
+cat pre-commit.sh >> .git/hooks/prepare-commit-msg
+./pre-commit.sh
