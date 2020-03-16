@@ -44,18 +44,18 @@ Run `./install.sh` to install the project dependencies.
 Example criteria for grading:
 
 ```
-	assessments
-	toy problems
+	Assessments
+	Toy problems
 	Mini Project
 	Fullstack Projects
 ```
 
 * Grade = id, criteria_id, student_id
 
-Example of grade computation :
+Example on how to get the percentage :
 
 ```
- % = ( (items - total) / items)
+ Final grade % = ((items - total) / items)
 ```
 
 
