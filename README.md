@@ -27,8 +27,7 @@ Run `./install.sh` to install the project dependencies.
 
 # Design Constraints
 
-- Bootstrap or any CSS framework you prefer, having a responsive design is a plus.
-
+- Bootstrap or any CSS framework you prefer.
 
 # Database  
 
@@ -136,11 +135,12 @@ COMMIT;
 * [ ] Atleast one of these methods (Overriding, Overloading or Method Chaining)
 * [x] Implementation of PDO connection class
 * [x] Implementation of namespace and autoloader class
-* [ ] Dependency injection
+* [ ] Implementation of dependency injection
 
 ### Features
 
-* A home Page
+* A responsive layout
+* A home page
 * A way to Login/Logout a user
 * A way to display a list of contacts
 * A way to CREATE,UPDATE and DELETE a contact
