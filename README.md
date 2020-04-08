@@ -66,7 +66,7 @@ Example on how to get the percentage :
 
 * [ ] Source code should be organized
 * [ ] Use of PHP 7 new syntax
-* [ ] Use of Polymorphism (Interface and Abtract class)
+* [ ] Use of Polymorphism (Interface and Abtract class or Traits)
 * [ ] Atleast one of these methods (Overriding, Overloading or Method Chaining)
 * [x] Implementation of PDO connection class
 * [x] Implementation of namespace and autoloader class
